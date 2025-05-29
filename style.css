@@ -1,0 +1,89 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url("https://zefirka.club/uploads/posts/2022-12/1672249371_5-zefirka-club-p-tekstura-bloka-zemli-6.png");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .card {
+    background-color: rgb(56, 56, 56);
+    border: 5px solid rgb(34, 34, 34);
+    border-radius: 16px;
+    box-shadow: 0 4px 8px gray;
+    padding: 20px;
+    width: 360px;
+    text-align: center;
+  }
+  h1,
+  h2 {
+    color: rgb(255, 255, 255);
+  }
+  input,
+  button {
+    font-size: 1rem;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  input {
+    padding: 8px;
+    width: calc(100% - 20px);
+    border: 2px solid #008f18;
+    border-radius: 8px;
+  }
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+  .btn-start {
+    background: #008f18;
+    color: white;
+  }
+  .btn-answer {
+    background: #008f18;
+    color: white;
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+  }
+  .btn-next {
+    background-color: #008f18;
+    color: white;
+  }
+  .btn-show {
+    background: #008f18;
+    color: white;
+  }
+  .btn-restart {
+    background: #008f18;
+    color: white;
+  }
+  .hidden {
+    display: none;
+  }
+  #leader table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  #leader th,
+  #leader td {
+    padding: 8px;
+    border-bottom: 1px solid #ffffff;
+  }
+  .btn-start {
+    background-color: #008f18;
+    color: white;
+  }
+  tbody{
+    color: white;
+  }
+  th{
+    color: white;
+  }

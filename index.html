@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card" id="startCard">
+        <h1>Привет это тект на знания игры майнкрафт</h1>
+        <input type="text" id="nameField" placeholder="Введите имя..." />
+        <button class="btn-start" id="startBtn">Начать</button>
+      </div>
+      <div class="card hidden" id="quizCard">
+        <h2 id="qText"></h2>
+        <div id="optButtons"></div>
+        <button class="btn-next hidden" id="nextBtn">Далее</button>
+      </div>
+      <div class="card hidden" id="resultCard">
+        <h2>
+          Ты набрал: <span id="pointGot"></span> из <span id="totalQ"></span>
+        </h2>
+        <button class="btn-show" id="showBtn">Показать лидеров</button>
+      </div>
+  
+      <div id="leader" class="card hidden">
+        <h2>Лидерборд</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Имя</th>
+              <th>Очки</th>
+            </tr>
+          </thead>
+          <tbody id="leaderBody"></tbody>
+        </table>
+        <button class="btn-restart" id="restartBtn">Играть еще</button>
+      </div>
+      <script src="./main.js"></script>
+    </body>
+  </html>
